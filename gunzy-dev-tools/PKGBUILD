@@ -1,0 +1,21 @@
+# Maintainer: Ross Williams <gunzy83au@gmail.com>
+pkgname=gunzy-dev-tools
+pkgver=0.0.1
+pkgrel=1
+pkgdesc="Dev tools for gunzy systems"
+arch=('any')
+url=""
+license=('MIT')
+depends=(
+  'docker'
+  'gunzy-core'
+  'konsole'
+  'pigz'
+  'sublime-text-3'
+  'slack-desktop'
+  'tig'
+  'vim'
+  'yakuake'
+  'zsh'
+)
+

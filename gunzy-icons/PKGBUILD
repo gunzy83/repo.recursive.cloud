@@ -1,0 +1,13 @@
+# Maintainer: Ross Williams <gunzy83au@gmail.com>
+pkgname=gunzy-icons
+pkgver=0.0.1
+pkgrel=1
+pkgdesc="Icon theme with custom icons and folders (based on Numix Circle)"
+arch=('any')
+url=""
+license=('MIT')
+depends=(
+  'numix-circle-icon-theme-git'
+  'numix-icon-theme-git'
+  'numix-folders-git'
+)

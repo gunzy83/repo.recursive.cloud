@@ -1,0 +1,45 @@
+# Maintainer: Ross Williams <gunzy83au@gmail.com>
+pkgname=gunzy-core
+pkgver=0.0.4
+pkgrel=1
+pkgdesc="Core packages for gunzy systems"
+arch=('any')
+url=""
+license=('MIT')
+depends=(
+  'aura-bin'
+  'aurutils'
+  'authy'
+  'barrier'
+  'bitwarden-bin'
+  'breeze-gtk'
+  'firefox'
+  'fontconfig'
+  'google-chrome'
+  'grub-btrfs'
+  'gunzy-init'
+  'gunzy-icons'
+  'inkscape'
+  'kvantum-qt5'
+  'kvantum-theme-moe-git'
+  'latte-dock-git'
+  'libappindicator-gtk3'
+  'plasma-splash-arch-moe'
+  'plasma-theme-moe-git'
+  'plasma5-applets-betterinlineclock-git'
+  'plasma5-applets-virtual-desktop-bar-git'
+  'plasma5-applets-window-appmenu'
+  'plasma5-applets-window-title'
+  'plex-media-player'
+  'simplenote-electron-bin'
+  'spotify'
+  'tela-circle-icon-theme-git'
+  'timeshift'
+  'timeshift-autosnap'
+  'trezor-bridge-bin'
+  'vivaldi'
+  'vivaldi-ffmpeg-codecs'
+  'wavebox'
+  'yakuake-skin-breeze-perfect-dark'
+)
+

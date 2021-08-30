@@ -1,0 +1,45 @@
+# Maintainer: Ross Williams <gunzy83au@gmail.com>
+pkgname=gunzy-init
+pkgver=0.0.3
+pkgrel=1
+pkgdesc="Base packages and configuration to bootstrap gunzy systems"
+arch=('any')
+url=""
+license=('MIT')
+depends=(
+  'autoconf'
+  'automake'
+  'binutils'
+  'bison'
+  'curl'
+  'fakeroot'
+  'file'
+  'findutils'
+  'flex'
+  'gawk'
+  'gcc'
+  'gettext'
+  'git'
+  'grep'
+  'groff'
+  'gzip'
+  'libtool'
+  'm4'
+  'make'
+  'pacman'
+  'patch'
+  'pkgconf'
+  'sed'
+  'sudo'
+  'texinfo'
+  'which'
+  'yubikey-manager-qt-appimage'
+  'yubioath-desktop-appimage'
+)
+source=('pacman.conf')
+md5sums=('950707584446b9f5c5bbe539da0b6707')
+package() {
+    install -Dm 0644 pacman.conf "$pkgdir/etc/pacman.conf.gunzy"
+    install=gunzy-init.install
+}
+
