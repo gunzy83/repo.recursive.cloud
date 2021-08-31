@@ -1,6 +1,6 @@
 # Maintainer: Ross Williams <gunzy83au@gmail.com>
 pkgname=gunzy-core
-pkgver=0.0.4
+pkgver=0.0.5
 pkgrel=1
 pkgdesc="Core packages for gunzy systems"
 arch=('any')
@@ -41,5 +41,7 @@ depends=(
   'vivaldi-ffmpeg-codecs'
   'wavebox'
   'yakuake-skin-breeze-perfect-dark'
+  'yubikey-manager-qt-appimage'
+  'yubioath-desktop-appimage'
 )
 
