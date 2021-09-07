@@ -1,6 +1,6 @@
 # Maintainer: Ross Williams <gunzy83au@gmail.com>
 pkgname=gunzy-core
-pkgver=0.0.5
+pkgver=0.0.6
 pkgrel=1
 pkgdesc="Core packages for gunzy systems"
 arch=('any')
@@ -14,11 +14,13 @@ depends=(
   'bitwarden-bin'
   'breeze-gtk'
   'firefox'
+  'flameshot'
   'fontconfig'
   'google-chrome'
   'grub-btrfs'
   'gunzy-init'
   'gunzy-icons'
+  'inkdrop'
   'inkscape'
   'kvantum-qt5'
   'kvantum-theme-moe-git'
