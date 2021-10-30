@@ -1,4 +1,4 @@
-.PHONY: add-aur-package add-local-package s3-upload upgrade-aur-packages build-package remove-package
+.PHONY: add-aur-package add-local-package s3-upload upgrade-aur-packages build-package remove-package upgrade-and-push
 
 RUN_ARGS := $(wordlist 2,$(words $(MAKECMDGOALS)),$(MAKECMDGOALS))
 $(eval $(RUN_ARGS):;@:)
@@ -27,6 +27,8 @@ upgrade-aur-packages: ## upgrade all AUR packages in the local repo
 s3-upload: ## upload all changed filed to S3 hosting
 	@aws s3 sync --follow-symlinks local-repo/ s3://repo.recursive.cloud/arch/repo/x86_64/ && \
 	  aws --profile gunzy cloudfront create-invalidation --distribution-id E2Z8EZMWIP4QG1 --paths '/arch/repo/x86_64/*'
+
+upgrade-and-push: upgrade-aur-packages s3-upload
 
 remove-package:
 	@echo "Not implemented"
