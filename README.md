@@ -28,6 +28,15 @@ sudo pacman -S yubioath-desktop-appimage
 
 Note: [repo.recursive.cloud](https://repo.recursive.cloud/) is hosted on AWS using Cloudfront, S3 and Cloudfront Functions (headers).
 
+Spotify
+-------
+
+GPG is required to build Spotify from the AUR:
+
+```
+curl -sS https://download.spotify.com/debian/pubkey_5E3C45D7B312C643.gpg | gpg --import -
+```
+
 License
 -------
 

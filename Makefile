@@ -28,7 +28,7 @@ s3-upload: ## upload all changed filed to S3 hosting
 	@aws s3 sync --follow-symlinks local-repo/ s3://repo.recursive.cloud/arch/repo/x86_64/ && \
 	  aws --profile gunzy cloudfront create-invalidation --distribution-id E2Z8EZMWIP4QG1 --paths '/arch/repo/x86_64/*'
 
-upgrade-and-push: upgrade-aur-packages s3-upload
+upgrade-and-push: upgrade-aur-packages s3-upload ## upgrade all AUR packages in local repo and push to S3
 
 remove-package:
 	@echo "Not implemented"
