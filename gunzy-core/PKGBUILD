@@ -1,6 +1,6 @@
 # Maintainer: Ross Williams <gunzy83au@gmail.com>
 pkgname=gunzy-core
-pkgver=0.0.8
+pkgver=0.0.9
 pkgrel=1
 pkgdesc="Core packages for gunzy systems"
 arch=('any')
@@ -35,6 +35,7 @@ depends=(
   'plasma5-applets-window-appmenu'
   'plasma5-applets-window-title'
   'plex-media-player'
+  'signal-desktop'
   'simplenote-electron-bin'
   'spotify'
   'tela-circle-icon-theme-git'
