@@ -1,6 +1,6 @@
 # Maintainer: Ross Williams <gunzy83au@gmail.com>
 pkgname=gunzy-core
-pkgver=0.0.7
+pkgver=0.0.8
 pkgrel=1
 pkgdesc="Core packages for gunzy systems"
 arch=('any')
@@ -13,6 +13,7 @@ depends=(
   'barrier'
   'bitwarden-bin'
   'breeze-gtk'
+  'cherry-kde-theme'
   'firefox'
   'flameshot'
   'fontconfig'
