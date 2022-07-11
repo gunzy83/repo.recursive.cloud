@@ -1,6 +1,6 @@
 # Maintainer: Ross Williams <gunzy83au@gmail.com>
 pkgname=gunzy-core
-pkgver=0.0.9
+pkgver=0.0.13
 pkgrel=1
 pkgdesc="Core packages for gunzy systems"
 arch=('any')
@@ -28,6 +28,7 @@ depends=(
   'kvantum-theme-moe-git'
   'latte-dock-git'
   'libappindicator-gtk3'
+  'libxcrypt-compat'
   'plasma-splash-arch-moe'
   'plasma-theme-moe-git'
   'plasma5-applets-betterinlineclock-git'
@@ -38,9 +39,11 @@ depends=(
   'signal-desktop'
   'simplenote-electron-bin'
   'spotify'
+  'tailscale'
   'tela-circle-icon-theme-git'
   'timeshift'
   'timeshift-autosnap'
+  'tio'
   'trezor-bridge-bin'
   'vivaldi'
   'vivaldi-ffmpeg-codecs'

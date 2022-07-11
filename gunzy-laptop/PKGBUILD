@@ -1,13 +1,12 @@
 # Maintainer: Ross Williams <gunzy83au@gmail.com>
 pkgname=gunzy-laptop
-pkgver=0.0.2
+pkgver=0.0.3
 pkgrel=1
 pkgdesc="Meta package for gunzy laptop systems"
 arch=('any')
 url=""
 license=('MIT')
 depends=(
-    'gunzy-core'
     'gunzy-dev-tools'
     'xf86-input-libinput'
 )

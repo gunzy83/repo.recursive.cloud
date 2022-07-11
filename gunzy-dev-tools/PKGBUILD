@@ -1,6 +1,6 @@
 # Maintainer: Ross Williams <gunzy83au@gmail.com>
 pkgname=gunzy-dev-tools
-pkgver=0.0.2
+pkgver=0.0.3
 pkgrel=1
 pkgdesc="Dev tools for gunzy systems"
 arch=('any')
@@ -12,10 +12,11 @@ depends=(
   'gunzy-core'
   'konsole'
   'pigz'
-  'sublime-text-3'
+  'sublime-text-4'
   'slack-desktop'
   'tig'
   'vim'
+  'visual-studio-code-bin'
   'yakuake'
   'zsh'
 )
