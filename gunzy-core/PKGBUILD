@@ -1,12 +1,14 @@
 # Maintainer: Ross Williams <gunzy83au@gmail.com>
 pkgname=gunzy-core
-pkgver=0.0.13
+pkgver=0.1.0
 pkgrel=1
 pkgdesc="Core packages for gunzy systems"
 arch=('any')
 url=""
 license=('MIT')
 depends=(
+  '1password'
+  '1password-cli'
   'aura-bin'
   'aurutils'
   'authy'
@@ -29,6 +31,7 @@ depends=(
   'latte-dock-git'
   'libappindicator-gtk3'
   'libxcrypt-compat'
+  'pam-u2f'
   'plasma-splash-arch-moe'
   'plasma-theme-moe-git'
   'plasma5-applets-betterinlineclock-git'
@@ -49,7 +52,8 @@ depends=(
   'vivaldi-ffmpeg-codecs'
   'wavebox'
   'yakuake-skin-breeze-perfect-dark'
-  'yubikey-manager-qt-appimage'
-  'yubioath-desktop-appimage'
+  'yubikey-manager-qt'
+  'yubikey-personalization-gui'
+  'yubioath-desktop'
 )
 
