@@ -1,6 +1,6 @@
 # Maintainer: Ross Williams <gunzy83au@gmail.com>
 pkgname=gunzy-init
-pkgver=0.0.4
+pkgver=0.0.5
 pkgrel=1
 pkgdesc="Base packages and configuration to bootstrap gunzy systems"
 arch=('any')
@@ -11,6 +11,7 @@ depends=(
   'automake'
   'binutils'
   'bison'
+  'crudini'
   'curl'
   'fakeroot'
   'file'

@@ -10,13 +10,11 @@ help:
 
 build-package: ## build a PKGBUILD in a folder
 	@cd $(RUN_ARGS) && \
-	 makepkg -csf && \
+	 makepkg -cfrd && \
 	 cd ..
 
 add-local-package: build-package ## build a PKGBUILD in a folder and add it to the local-repo
-	@mv $(RUN_ARGS)/$(RUN_ARGS)-*.pkg.tar.zst local-repo/ && \
-	 cd local-repo && \
-	 repo-add -n recursive-cloud.db.tar.xz $(RUN_ARGS)-*.pkg.tar.zst
+	./add-local-package-to-repo.sh $(RUN_ARGS)
 
 add-aur-package: ## add an AUR package to the local repo
 	@aur sync --repo recursive-cloud --root $(shell pwd)/local-repo --no-view $(RUN_ARGS)
