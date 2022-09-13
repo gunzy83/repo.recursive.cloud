@@ -4,4 +4,4 @@ cd $package_name
 file=$(ls "${package_name}"-*.pkg.tar.zst)
 mv $file ../local-repo/ && \
 cd ../local-repo && \
-repo-add -n recursive-cloud.db.tar.xz $file
+repo-add recursive-cloud.db.tar.xz $file
