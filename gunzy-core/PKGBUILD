@@ -1,6 +1,6 @@
 # Maintainer: Ross Williams <gunzy83au@gmail.com>
 pkgname=gunzy-core
-pkgver=0.1.1
+pkgver=0.1.2
 pkgrel=1
 pkgdesc="Core packages for gunzy systems"
 arch=('any')
@@ -9,6 +9,7 @@ license=('MIT')
 depends=(
   '1password'
   '1password-cli'
+  'asdf-vm'
   'aura-bin'
   'aurutils'
   'authy'
@@ -18,6 +19,7 @@ depends=(
   'breeze-gtk'
   'cherry-kde-theme'
   'chezmoi'
+  'cmatrix'
   'docker'
   'firefox'
   'flameshot'
