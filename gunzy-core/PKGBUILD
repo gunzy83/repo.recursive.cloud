@@ -1,6 +1,6 @@
 # Maintainer: Ross Williams <gunzy83au@gmail.com>
 pkgname=gunzy-core
-pkgver=0.1.3
+pkgver=0.1.4
 pkgrel=1
 pkgdesc="Core packages for gunzy systems"
 arch=('any')
@@ -20,6 +20,7 @@ depends=(
   'cherry-kde-theme'
   'chezmoi'
   'cmatrix'
+  'crudini'
   'docker'
   'firefox'
   'flameshot'
