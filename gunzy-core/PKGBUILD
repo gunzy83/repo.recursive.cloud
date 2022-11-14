@@ -1,6 +1,6 @@
 # Maintainer: Ross Williams <gunzy83au@gmail.com>
 pkgname=gunzy-core
-pkgver=0.1.5
+pkgver=0.1.6
 pkgrel=1
 pkgdesc="Core packages for gunzy systems"
 arch=('any')
@@ -14,6 +14,7 @@ depends=(
   'aurutils'
   'authy'
   'barrier'
+  'beekeeper-studio-bin'
   'bind'
   'bitwarden-bin'
   'breeze-gtk'
@@ -35,9 +36,11 @@ depends=(
   'konsole'
   'kvantum-qt5'
   'kvantum-theme-moe-git'
+  'lens-bin'
   'libappindicator-gtk3'
   'libxcrypt-compat'
   'pam-u2f'
+  'peek'
   'pigz'
   'plasma-splash-arch-moe'
   'plasma-theme-moe-git'
@@ -69,6 +72,7 @@ depends=(
   'yubikey-personalization-gui'
   'yubikey-touch-detector'
   'yubioath-desktop'
+  'wireshark-qt'
   'zoom'
   'zsh'
 )
