@@ -34,7 +34,16 @@ Spotify
 GPG is required to build Spotify from the AUR:
 
 ```
-curl -sS https://download.spotify.com/debian/pubkey_5E3C45D7B312C643.gpg | gpg --import -
+curl -sS https://download.spotify.com/debian/pubkey_7A3A762FAFD4A51F.gpg | gpg --import -
+```
+
+Yubico-Authenticator
+--------------------
+
+GPG is required to build/install Yubico-Authenticator from the AUR:
+
+```
+gpg --recv-keys 20EE325B86A81BCBD3E56798F04367096FBA95E8
 ```
 
 License
